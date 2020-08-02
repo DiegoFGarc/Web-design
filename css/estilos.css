@@ -8,7 +8,7 @@ html,body{
 nav{
     display: flex; 
     background-color: #7acc2d;
-    padding: 10px;
+    padding: 3px;
     color: white;
     justify-content: space-between;
     align-items: center;
@@ -30,4 +30,29 @@ nav li a{
 
 nav li a:hover{
     color: white;
+}
+
+/* -----------Main section */
+
+.main_section{
+    padding: 15%;
+    text-align: center;
+}
+
+/* Sirve para colocar de fondo una imagen */
+.products{
+    background-image: url("../images/curva.png");
+    height: 100px;
+    background-size: cover;
+    background-position: center top;
+    padding: 30%;
+    display: flex;
+}
+
+.product{
+    padding:10px
+}
+.product .content{
+    padding: 20px;
+    background-color: white;
 }
