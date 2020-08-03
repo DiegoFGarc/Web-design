@@ -2,7 +2,7 @@ html,body{
     padding:0px;
     margin: 0px;
     font-size: 32px;
-    font-family: Helvetica;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 nav{
@@ -35,7 +35,7 @@ nav li a:hover{
 /* -----------Main section */
 
 .main_section{
-    padding: 15%;
+    padding: 10%;
     text-align: center;
 }
 
@@ -58,6 +58,26 @@ nav li a:hover{
     padding:10px
 }
 .product .content{
-    padding: 20px;
-    background-color: #A8AA13;
+    padding: 15px;
+    box-shadow: 0 0 10px black;
+    background-color: #5369F4;
+
+}
+
+.img_content{
+    text-align: center;
+}
+.main_button{
+    background-color: #415077;
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.main_button:hover{
+    background-color: #336BFF;
 }
